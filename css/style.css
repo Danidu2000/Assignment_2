@@ -23,7 +23,7 @@ body{
     padding-bottom: 20px;
 }
 .container1{
-    background-image: url(/img/Firstimg.jpg);
+    background-image: url(../img/Firstimg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@ body{
     transition: 0.5s;
 }
 .footer_logo:hover{
-    background-image: url(/img/footer\ logo\ gif.gif);
+    background-image: url(../img/footer\ logo\ gif.gif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
