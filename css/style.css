@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Satisfy&display=swap');
+.container header span{
+    font-family: "Orbitron", sans-serif;
+}
+body{
+    background-color: rgb(14, 14, 14);
+}
+.row1{
+    padding-right: 8%;
+    padding-top: 1%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.col{
+    padding-left: 14%;
+    flex-basis: 35%;
+    margin-top: 300px;
+    padding-bottom: 20px;
+}
+.container1{
+    background-image: url(/img/Firstimg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    position: relative;
+    margin-top: 120px;
+}
+.information{
+    list-style: circle;
+    color: white;
+}
+.information li{
+    transition: 0.5s;
+}
+.information li:hover{
+    transform: translateY(-4px);
+}
+.contact_me{
+    list-style: circle;
+    color: white;
+}
+.contact_me li{
+    transition: 0.5s;
+}
+.contact_me li:hover{
+    transform: translateY(-4px);
+}
+.footer_logo{
+    width: 200px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.footer_logo:hover{
+    background-image: url(/img/footer\ logo\ gif.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+    
+.who_am_i{
+    color: white;
+    border: #000;
+    font-size: 60px;
+    transition: 0.5s;
+    font-family: "Satisfy", cursive;
+    font-weight: 1000;
+    font-style: normal;
+    display: inline-block;
+    
+}
+.who_am_i:hover{
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    cursor: none;
+}
+.who_am_i_p{
+    font-family: "Caveat", cursive;
+    font-size: x-large;
+    font-weight: 400;
+    font-style: normal;
+}
+.container ul li a{
+    transition: 0.5s;
+}
+.container ul li a:hover{
+    transform: translateY(-5px);
+}
+.container{
+    background-color: rgb(14, 14, 14);
+}
